@@ -1,0 +1,99 @@
+@CHARSET "UTF-8";
+body {
+	background-color:#E6FFB2;
+	overflow:auto;
+}
+
+#page {
+	width:80%;
+	position:fixed;
+	right:10%;
+	background-color:#FFFFE0;
+	color:#244700;
+	border:5px outset #244700;
+	font-size:30px;
+	overflow:auto;
+}
+
+.center{
+	vertical-align:center;
+	text-align:center;	
+}
+
+
+#statusline{
+	/*height:80px;*/
+	font-size:25px;
+}
+
+#statusline table {
+	width:100%;
+	padding-top:30px;
+	padding-bottom:20px;
+	float:center;
+	/*table-layout:auto;
+	border: 1px dotted black;*/
+}
+
+#body{
+	width:100%;
+	height:300px;
+	text-align:center;
+}
+
+#gamefield{
+	width:60%;
+	height:100%;
+	float:left;
+
+}
+
+#form{
+	position:fixed;
+	left:20%;
+	/*width:80%;*/
+	padding-top:30px;
+	text-align:left;
+	font-size:20px;	
+	border: 1px dotted black;
+}
+
+#results{
+	width:40%;
+	height:100%;
+	float:right;
+	/*text-align:center;*/
+	/*border: 1px dashed black;*/
+	overflow:auto;
+}
+
+#statistics{
+	
+	height:60px;
+	font-size:20px;
+}
+
+
+#results table{
+	table-layout:auto;
+	/*border:3px dashed #32CD32;*/
+	background-color:#8EB98E;
+	float:center;
+	border-collapse:collapse;
+}
+
+#results td, th{
+	padding-left:10px;
+	padding-right:10px;
+	color:#080C00;
+	font-size:15px;
+}
+
+
+#results tr.stat1{
+	background-color:#7ACC29;
+}
+
+#results tr.stat2{
+	background-color:#A2DB69;
+}
